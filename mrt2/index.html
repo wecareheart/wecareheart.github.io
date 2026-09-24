@@ -4,51 +4,51 @@
 <style>
 #imq *{box-sizing:border-box}
 #imq{font-family:-apple-system,"PingFang TC","Microsoft JhengHei",sans-serif;max-width:1000px;margin:0 auto;padding:16px;color:#2d2a26;line-height:1.75}
-#imq .hd{text-align:center;padding:20px 12px 12px;background:linear-gradient(135deg,#7a3e12,#a85a22);border-radius:14px;color:#fff;margin-bottom:8px}
+#imq .hd{text-align:center;padding:20px 12px 12px;background:linear-gradient(135deg,#3d4f63,#56708c);border-radius:14px;color:#fff;margin-bottom:8px}
 #imq .hd h1{font-size:1.45rem;margin:0 0 6px}
 #imq .hd .sub{font-size:.92rem;opacity:.97}
 #imq .hd .by{font-size:.9rem;margin-top:8px;color:#fff;opacity:.95}
 #imq .hd .by a{color:#ffe08a;font-weight:700;text-decoration:underline}
 #imq .src{font-size:.78rem;color:#9a8e84;text-align:center;margin:8px 0 4px}
 #imq .tabs{display:flex;gap:8px;justify-content:center;margin:14px 0}
-#imq .tab{padding:8px 20px;border:1px solid #eed3ba;border-radius:999px;background:#fff;cursor:pointer;font-size:.95rem;color:#6b5d52}
-#imq .tab.on{background:#a85a22;color:#fff;border-color:#a85a22}
+#imq .tab{padding:8px 20px;border:1px solid #cad5e0;border-radius:999px;background:#fff;cursor:pointer;font-size:.95rem;color:#6b5d52}
+#imq .tab.on{background:#56708c;color:#fff;border-color:#56708c}
 #imq .ctrl{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:10px}
-#imq select,#imq input{padding:7px 10px;border:1px solid #eed3ba;border-radius:8px;font-size:.9rem;color:#2d2a26}
+#imq select,#imq input{padding:7px 10px;border:1px solid #cad5e0;border-radius:8px;font-size:.9rem;color:#2d2a26}
 #imq .cnt{text-align:center;color:#9a8e84;font-size:.85rem;margin:6px 0 14px}
-#imq .grp{margin:24px 0 8px;font-weight:700;color:#7a3e12;border-bottom:2px solid #eed3ba;padding-bottom:5px;font-size:1.1rem}
-#imq .lec{background:#fbeee2;border:1px solid #eed3ba;border-left:5px solid #a85a22;border-radius:10px;padding:14px 16px;margin:8px 0 16px}
-#imq .lec h3{margin:0 0 8px;color:#7a3e12;font-size:1.04rem}
+#imq .grp{margin:24px 0 8px;font-weight:700;color:#3d4f63;border-bottom:2px solid #cad5e0;padding-bottom:5px;font-size:1.1rem}
+#imq .lec{background:#e9eef3;border:1px solid #cad5e0;border-left:5px solid #56708c;border-radius:10px;padding:14px 16px;margin:8px 0 16px}
+#imq .lec h3{margin:0 0 8px;color:#3d4f63;font-size:1.04rem}
 #imq .lec h3.title{cursor:pointer}
 #imq .lec p,#imq .lec li{font-size:.93rem}
 #imq .lec ul{margin:6px 0 6px 2px;padding-left:20px}
 #imq .lec .body{margin-top:4px}
-#imq .q{border:1px solid #eed3ba;border-radius:12px;padding:15px 17px;margin:13px 0;background:#fff}
+#imq .q{border:1px solid #cad5e0;border-radius:12px;padding:15px 17px;margin:13px 0;background:#fff}
 #imq .chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
 #imq .chip{font-size:.72rem;padding:2px 9px;border-radius:999px;background:#eef0f3;color:#6b5d52}
-#imq .chip.y{background:#fbeee2;color:#7a3e12}
-#imq .chip.t{background:#fbeee2;color:#a85a22}
+#imq .chip.y{background:#e9eef3;color:#3d4f63}
+#imq .chip.t{background:#e9eef3;color:#56708c}
 #imq .chip.sf{background:#fff3e3;color:#9a5b0c}
 #imq .chip.ma{background:#e8eefc;color:#1e3a8a}
 #imq .chip.cr{background:#fde8ef;color:#9d174d}
 #imq .note{font-size:.88rem;color:#9d174d;background:#fdf2f6;border:1px solid #f5c6d8;border-radius:8px;padding:6px 10px;margin:6px 0}
 #imq .stem{font-weight:600;margin-bottom:9px}
-#imq .stem .n{color:#7a3e12;margin-right:4px}
+#imq .stem .n{color:#3d4f63;margin-right:4px}
 #imq img.fig{display:block;max-width:min(100%,600px);border:1px solid #e3e3e3;border-radius:8px;margin:6px 0;cursor:zoom-in}
 #imq img.fig.big{max-width:none;width:auto}
 #imq .opt{padding:6px 8px;border-bottom:1px dashed #eee9e3;font-size:.95rem;cursor:pointer;border-radius:7px;transition:background .12s}
 #imq .opt b{color:#7b6a5d;margin-right:6px}
-#imq .opt:hover{background:#fbeee2}
+#imq .opt:hover{background:#e9eef3}
 #imq .q.done .opt{cursor:default}
-#imq .opt.pick{outline:2px solid #a85a22}
+#imq .opt.pick{outline:2px solid #56708c}
 #imq .opt.right{background:#d6f5e0;font-weight:600}
 #imq .opt.wrong{background:#fde2e1;font-weight:600}
 #imq .hint{font-size:.8rem;color:#b39a88;margin:2px 0 6px}
 #imq .result{display:none;margin-top:10px;padding:8px 14px;border-radius:8px;font-weight:700;font-size:1.02rem}
 #imq .result.ok{display:inline-block;background:#e9f7ef;color:#1d7a46;border:1px solid #1d7a46}
 #imq .result.bad{display:inline-block;background:#fdecea;color:#c0392b;border:1px solid #c0392b}
-#imq .btn{margin-top:10px;padding:7px 16px;border:1px solid #a85a22;color:#7a3e12;background:#fff;border-radius:999px;cursor:pointer;font-size:.9rem}
-#imq .btn.on{background:#a85a22;color:#fff;border-color:#a85a22}
+#imq .btn{margin-top:10px;padding:7px 16px;border:1px solid #56708c;color:#3d4f63;background:#fff;border-radius:999px;cursor:pointer;font-size:.9rem}
+#imq .btn.on{background:#56708c;color:#fff;border-color:#56708c}
 #imq .btn.warn{border-color:#d9534f;color:#b52b27}
 #imq .ans{display:none;margin-top:12px}
 #imq .ans.show{display:block}
@@ -60,10 +60,10 @@
 #imq .oa{padding:4px 6px;border-bottom:1px dashed #e3d4f7;font-size:.92rem}
 #imq .oa.correct{background:#d6f5e0;border-radius:6px;font-weight:600}
 #imq .src2{font-size:.8rem;color:#8a7f76;margin-top:8px;background:#f5f4f2;border-radius:6px;padding:8px 10px}
-#imq .stats{max-width:680px;margin:10px auto 2px;background:#fbeee2;border:1px solid #eed3ba;border-radius:10px;padding:10px 14px;text-align:center;color:#7a3e12;font-size:.95rem}
-#imq .stats b{color:#7a3e12;font-size:1.05rem}
+#imq .stats{max-width:680px;margin:10px auto 2px;background:#e9eef3;border:1px solid #cad5e0;border-radius:10px;padding:10px 14px;text-align:center;color:#3d4f63;font-size:.95rem}
+#imq .stats b{color:#3d4f63;font-size:1.05rem}
 #imq .stats .bar{height:8px;background:#eee5dd;border-radius:6px;margin-top:8px;overflow:hidden}
-#imq .stats .bar>i{display:block;height:100%;background:linear-gradient(90deg,#a85a22,#7a3e12);width:0}
+#imq .stats .bar>i{display:block;height:100%;background:linear-gradient(90deg,#56708c,#3d4f63);width:0}
 
 /* RWD-mobile-fix */
 #imq{overflow-x:hidden}
